@@ -9,15 +9,6 @@ GeeksforGeeks
 GeeksforGeeks
  +2
 ## Common C++ Keywords by Category 
-
-||		|
-||		||
-||	||
-||		||
-||		||
-||		||
-
-
 | Category  | Keywords	| Description|
 | :--- | :--- | :--- |
 | Data Types| int, char, float, double, bool, void, wchar_t| Define the type and nature of data that variables can hold.|
