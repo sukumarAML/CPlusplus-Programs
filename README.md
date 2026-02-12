@@ -9,12 +9,12 @@ The basic starts with foundation concepts
 4. constants
 5. comments
 6. operators
-   6.1 Arithmetic Operators:
-   6.2 Assignment Operators:
-   6.3 Relational (Comparison) Operators:
-   6.4 Logical Operators:
-   6.5 Bitwise Operators
-   6.6 Ternary (Conditional) Operator:
+   6.1 Arithmetic Operators:\
+   6.2 Assignment Operators:\
+   6.3 Relational (Comparison) Operators:\
+   6.4 Logical Operators:\
+   6.5 Bitwise Operators:\
+   6.6 Ternary (Conditional) Operator:\
 7. String
 8. Datatypes
 9. Looping statements
