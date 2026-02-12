@@ -18,3 +18,9 @@ Type Modifiers/Qualifiers|	const, static, auto, extern, mutable, signed, unsigne
 Exception Handling|	try, catch, throw, noexcept	|Manage and respond to runtime errors or exceptions.|
 Casting Operators|	static_cast, dynamic_cast, const_cast, reinterpret_cast	|Perform explicit type conversions.|
 
+
+| Header 1 | Header 2 | Header 3 |
+| :--- | :---: | ---: |
+| Left | Center | Right |
+| Content | Content | Content |
+
