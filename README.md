@@ -18,17 +18,16 @@ The basic starts with foundation concepts
 7. String
 8. Datatypes
 9. Looping statements
-   9.1 if
-   9.2 if else
-   9.3 else if
-   9.4 ternery operator
-   9.5 nested if
-   9.6 logical operations
-   9.7 switch
-   9.8 do while
-   9.9 while
+   9.1 if\
+   9.2 if else\
+   9.3 else if\
+   9.4 ternery operator\
+   9.5 nested if\
+   9.6 logical operations\
+   9.7 switch\
+   9.8 do while\
+   9.9 while\
    9.10 for loop
-   
 11. Arrays
 12. structures
 13. Functions
