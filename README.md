@@ -32,12 +32,13 @@ The basic starts with foundation concepts
 11. Arrays
 12. structures
 13. Functions
-# Object oriented programming  
+
+# Object oriented programming concepts
 1. Class
-2. object
-3. data abstraction
-4. Data encapsulation
-5. polymorphism
-6. inheritance 
-7. message passing
+2. Object
+3. Data Abstraction
+4. Data Encapsulation
+5. Polymorphism
+6. Inheritance 
+7. Message passing
 
