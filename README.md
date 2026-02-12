@@ -17,7 +17,7 @@ The basic starts with foundation concepts
    6.6 Ternary (Conditional) Operator:
 7. String
 8. Datatypes
-9. Looping statements
+9. Looping statements \
    9.1 if\
    9.2 if else\
    9.3 else if\
@@ -29,8 +29,9 @@ The basic starts with foundation concepts
    9.9 while\
    9.10 for loop
 11. Arrays
-12. structures
+12. Structures
 13. Functions
+14. Pointers
 
 # Object oriented programming concepts
 1. Class
