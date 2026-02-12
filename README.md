@@ -33,11 +33,11 @@ The basic starts with foundation concepts
 12. structures
 13. Functions
 # Object oriented programming  
-class
-object
-data abstraction
-Data encapsulation
-polymorphism
-inheritance 
-message passing
+1. Class
+2. object
+3. data abstraction
+4. Data encapsulation
+5. polymorphism
+6. inheritance 
+7. message passing
 
