@@ -8,13 +8,13 @@ Essential for Syntax: They are used to structure code and instruct the compiler 
 GeeksforGeeks
 GeeksforGeeks
  +2
-Common C++ Keywords by Category 
+## Common C++ Keywords by Category 
 |Category |	Keywords	|Description|
-Data Types	int, char, float, double, bool, void, wchar_t	Define the type and nature of data that variables can hold.
-Control Flow	if, else, switch, case, for, while, do, break, continue, return, goto	Control the sequence of instruction execution and allow for loops and conditional logic.
-Object-Oriented Programming (OOP)	class, struct, union, public, private, protected, virtual, friend	Define user-defined types, manage data encapsulation and inheritance, and support polymorphism.
-Memory Management	new, delete	Dynamically allocate and deallocate memory during program execution.
-Type Modifiers/Qualifiers	const, static, auto, extern, mutable, signed, unsigned	Provide additional information about a variable or function's properties or storage duration.
-Exception Handling	try, catch, throw, noexcept	Manage and respond to runtime errors or exceptions.
-Casting Operators	static_cast, dynamic_cast, const_cast, reinterpret_cast	Perform explicit type conversions.
+Data Types|	int, char, float, double, bool, void, wchar_t	|Define the type and nature of data that variables can hold.|
+Control Flow|	if, else, switch, case, for, while, do, break, continue, return, goto	Control the sequence of instruction execution and allow for loops and conditional logic.|
+Object-Oriented Programming (OOP)|	class, struct, union, public, private, protected, virtual, friend	|Define user-defined types, manage data encapsulation and inheritance, and support polymorphism.|
+Memory Management|	new, delete	|Dynamically allocate and deallocate memory during program execution.|
+Type Modifiers/Qualifiers|	const, static, auto, extern, mutable, signed, unsigned	|Provide additional information about a variable or function's properties or storage duration.|
+Exception Handling|	try, catch, throw, noexcept	|Manage and respond to runtime errors or exceptions.|
+Casting Operators|	static_cast, dynamic_cast, const_cast, reinterpret_cast	|Perform explicit type conversions.|
 
