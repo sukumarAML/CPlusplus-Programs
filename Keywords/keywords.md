@@ -14,8 +14,8 @@ GeeksforGeeks
 ||		||
 ||	||
 ||		||
-|Exception Handling|	try, catch, throw, noexcept	|Manage and respond to runtime errors or exceptions.|
-|Casting Operators|	static_cast, dynamic_cast, const_cast, reinterpret_cast	|Perform explicit type conversions.|
+||		||
+||		||
 
 
 | Category  | Keywords	| Description|
@@ -25,5 +25,5 @@ GeeksforGeeks
 | Object-Oriented Programming (OOP)| class, struct, union, public, private, protected, virtual, friend | Define user-defined types, manage data encapsulation and inheritance, and support polymorphism. |
 | Memory Management | new, delete	| Dynamically allocate and deallocate memory during program execution. |
 | Type Modifiers/Qualifiers| const, static, auto, extern, mutable, signed, unsigned | Provide additional information about a variable or function's properties or storage duration. |
-| Content | Content | Content |
-| Content | Content | Content |
+| Exception Handling| try, catch, throw, noexcept | Manage and respond to runtime errors or exceptions. |
+| Casting Operators| static_cast, dynamic_cast, const_cast, reinterpret_cast | Perform explicit type conversions. |
