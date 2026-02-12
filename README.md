@@ -3,12 +3,12 @@
 
 The programs are listed as a structured learning path for programming basics in C++.
 The basic starts with foundation concepts
-1. Input/Output programs
-2. variables
-3. keywords
-4. constants
-5. comments
-6. operators\
+1. _Input/Output programs_
+2. _Variables_
+3. _Keywords_
+4. _Constants_
+5. _Comments_
+6. _Operators\_
    6.1 Arithmetic Operators:\
    6.2 Assignment Operators:\
    6.3 Relational (Comparison) Operators:\
