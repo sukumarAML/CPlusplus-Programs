@@ -19,7 +19,7 @@ GeeksforGeeks
 
 
 | Category  | Keywords	| Description|
-| :--- | :---: | ---: |
+| :--- | :--- | :--- |
 | Data Types| int, char, float, double, bool, void, wchar_t| Define the type and nature of data that variables can hold.|
 | Control Flow | if, else, switch, case, for, while, do, break, continue, return, goto | Control the sequence of instruction execution and allow for loops and conditional logic. |
 | Content | Content | Content |
