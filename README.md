@@ -8,7 +8,7 @@ The basic starts with foundation concepts
 3. _Keywords_
 4. _Constants_
 5. _Comments_
-6. _Operators\_
+6. _Operators_
    6.1 Arithmetic Operators:\
    6.2 Assignment Operators:\
    6.3 Relational (Comparison) Operators:\
