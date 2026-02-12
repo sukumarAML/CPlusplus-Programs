@@ -9,9 +9,8 @@ GeeksforGeeks
 GeeksforGeeks
  +2
 ## Common C++ Keywords by Category 
-||	||
-||		||
-||	if, else, switch, case, for, while, do, break, continue, return, goto	Control the sequence of instruction execution and allow for loops and conditional logic.|
+
+||		|
 |Object-Oriented Programming (OOP)|	class, struct, union, public, private, protected, virtual, friend	|Define user-defined types, manage data encapsulation and inheritance, and support polymorphism.|
 |Memory Management|	new, delete	|Dynamically allocate and deallocate memory during program execution.|
 |Type Modifiers/Qualifiers|	const, static, auto, extern, mutable, signed, unsigned	|Provide additional information about a variable or function's properties or storage duration.|
@@ -22,5 +21,6 @@ GeeksforGeeks
 | Category  | Keywords	| Description|
 | :--- | :---: | ---: |
 | Data Types| int, char, float, double, bool, void, wchar_t| Define the type and nature of data that variables can hold.|
+| Control Flow | if, else, switch, case, for, while, do, break, continue, return, goto | Control the sequence of instruction execution and allow for loops and conditional logic. |
 | Content | Content | Content |
-
+| Content | Content | Content |
