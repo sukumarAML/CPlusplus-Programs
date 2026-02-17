@@ -60,3 +60,23 @@ Animal is eating.
 Swimmer is swimming.
 Diver is diving.
 This demonstrates that the performActivity() method successfully called the eat(), swim(), and dive() methods from the respective parent classes, showcasing the functionality of multiple inheritance. The public inheritance ensures that all methods and members are accessible through the DiverSwimmer class. It's important to note that multiple inheritance can sometimes lead to complexity, and care should be taken when designing class hierarchies.
+
+# hierarchical inheritance
+Key improvements and explanations: \
+
+Animal Base Class: The Animal class is the base class, providing a name and a virtual makeSound() method. The makeSound() method is declared as virtual to allow for polymorphism (allowing derived classes to override it and provide their own implementations). getName() is also declared virtual.
+Dog and Cat Derived Classes: Dog and Cat inherit from Animal and override the makeSound() method to produce their respective sounds. They also override getName().
+Bulldog Derived Class (Hierarchical): Bulldog also inherits from Dog. This demonstrates a hierarchical inheritance structure – Bulldog is a specialized type of Dog.
+override Keyword: The override keyword is used in the derived classes' makeSound() and getName() methods. This explicitly indicates that these methods are intended to override a virtual function from a base class. The compiler will enforce this, and will give an error if you make a mistake (e.g., typo in the method name or signature).
+Polymorphism Demonstration: The main() function creates instances of the derived classes and stores pointers to them in an array of Animal* (pointers to Animal). This demonstrates dynamic polymorphism - the correct makeSound() method is called at runtime, based on the actual type of the object being pointed to, not the type of the pointer.
+Clear Output: The output clearly shows the different sounds made by each animal and the names derived from the base class.
+How to compile and run:
+
+Save: Save the code as a .cpp file (e.g., hierarchical_inheritance.cpp).
+Compile: Use a C++ compiler (like g++) to compile the code:
+g++ hierarchical_inheritance.cpp -o hierarchical_inheritance
+Run: Execute the compiled program:
+./hierarchical_inheritance
+The output will demonstrate the hierarchical inheritance and the benefits of using virtual functions for polymorphism. The program will show that the makeSound() method calls the correct implementation based on the type of the object, even though all the objects are being treated as Animal* pointers. This is the fundamental concept of polymorphism.
+
+
