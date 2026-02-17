@@ -1,4 +1,4 @@
-How to compile and run:
+# How to compile and run:
 
 **Save:** Save the code as a .cpp file (e.g., switch_statement.cpp).\
 **Compile:** Use a C++ compiler (like g++) to compile the code:\
