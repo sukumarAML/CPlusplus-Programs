@@ -19,3 +19,22 @@ _g++ inheritance_example.cpp -o inheritance_example_ \
 **Run:** Execute the compiled program:
 _./inheritance_example_ \
 This program demonstrates the core concepts of inheritance in C++: a base class (Animal) and derived classes (Dog and Cat) that inherit from the base class and can override its methods. This illustrates polymorphism, a key feature of object-oriented programming.
+# Single Inheritance
+Key improvements and explanations:
+
+Single Inheritance: This example demonstrates single inheritance, where one class (Dog) inherits from another class (Animal).
+Animal Class: The Animal class has private members name and sound, and public members for setting and getting these values. It also has a virtual makeSound() function, which is essential for polymorphism.
+Dog Class: The Dog class inherits from Animal using public Animal. It adds a breed attribute specific to dogs and overrides the makeSound() function to provide dog-specific behavior.
+Constructors: Both the Animal and Dog classes have constructors to initialize their members. The Dog constructor calls the Animal constructor using the member initializer list (: Animal(dogName, "Woof!")). This ensures that the Animal part of the Dog object is properly initialized.
+Setter and Getter Methods: The Animal class provides setter and getter methods to control access to its private members. This promotes encapsulation and data hiding.
+Overriding makeSound(): The Dog class overrides the makeSound() function from the Animal class. The override keyword explicitly indicates that this function is overriding a virtual function from a base class. This helps the compiler catch errors if the signature is different.
+Polymorphism: The main() function demonstrates polymorphism by using pointers to the Animal class to call the makeSound() function on both Animal and Dog objects. This allows you to treat objects of different classes uniformly through a common base class pointer.
+Clear Output: The std::cout statements clearly display the output of the program.
+How to compile and run:
+
+Save: Save the code as a .cpp file (e.g., single_inheritance.cpp).
+Compile: Use a C++ compiler (like g++) to compile the code:
+g++ single_inheritance.cpp -o single_inheritance
+Run: Execute the compiled program:
+./single_inheritance
+The output will show the different animal sounds and demonstrate the use of polymorphism. The key takeaway is the use of public inheritance which allows the Dog class to inherit all the members of the Animal class. The virtual function in Animal is vital for the demonstration of polymorphism. The override keyword enhances code safety by ensuring the derived class's function matches the base class's function.
