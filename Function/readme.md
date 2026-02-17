@@ -23,3 +23,28 @@ Function with Recursion:
 Illustrates the concept of recursion—a function calling itself to solve a smaller subproblem.
 The factorial function calculates the factorial of a number recursively.
 This program showcases several advanced C++ features, including default arguments, variadic functions, lambda expressions, and the use of std::function. It demonstrates how these features can make your code more flexible, concise, and expressive. The comments highlight the purpose of each section. Compile with a C++17 or later compiler to get full support for the fold expression used in the variadic function.
+# inline
+Key improvements and explanations:
+
+inline Keyword: The inline keyword is used before the function declarations. This suggests to the compiler that the function should be expanded inline at the point of call. However, the compiler is not obligated to inline the function. The compiler makes the final decision based on various factors (optimization level, function size, etc.).
+
+Simple Inline Functions: The add and multiply functions are simple examples to illustrate the basic concept. They perform straightforward calculations.
+
+Inline Function with Parameters: The multiply function demonstrates inline functions that accept arguments.
+
+Inline Function with a Vector and Standard Algorithm: The sum_vector function demonstrates how inline functions can be used to apply standard algorithms (like std::accumulate) to containers.
+
+Inline Function with a Lambda Expression: This example illustrates using a lambda expression within an inline function.
+
+Why inline Doesn't Guarantee Inlining: It's crucial to understand that inline is a suggestion to the compiler, not a command. The compiler will consider several factors before deciding whether to inline a function:
+
+Function Size: Small functions are more likely to be inlined.
+Optimization Level: Higher optimization levels generally lead to more inlining.
+Compiler Design: Different compilers may have different policies regarding inlining.
+Benefits of Inlining: Inlining can potentially improve performance by reducing the overhead of function calls (stack manipulation, argument passing, etc.). It can lead to more efficient code execution, especially in frequently called functions.
+
+Limitations: Inlining can also increase code size if many functions are inlined. Excessive inlining can sometimes hinder the compiler's ability to perform other optimizations.
+
+Modern C++: In modern C++, the compiler is often very good at optimizing code, and inlining is frequently handled automatically. However, explicitly using inline can still be helpful in certain situations to guide the compiler's decisions.
+
+This program provides practical examples of how to use the inline keyword and showcases various types of inline functions. It helps to understand the concept and potential benefits of inline functions in C++. Remember that the compiler's decision to inline a function depends on a multitude of factors.
