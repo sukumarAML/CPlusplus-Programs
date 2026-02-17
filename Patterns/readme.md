@@ -1,6 +1,6 @@
 # Key improvements and explanations:
 
-**Includes:** Includes <iostream> for input/output and <iomanip> for formatting. \
+**Includes:** Includes <iostream> for input/output and <iomanip> for formatting.\
 **User Input:** Prompts the user to enter the number of rows for the pattern. \
 **Clear Examples:** The code provides three different examples of patterns:
 **Right-angled triangle:** Prints a triangle of asterisks.\
