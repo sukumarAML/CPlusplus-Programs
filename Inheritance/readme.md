@@ -14,7 +14,7 @@ Main Function: Creates objects of the Dog and Cat classes and calls their makeSo
 # How to compile and run:
 
 **Save:** Save the code as a .cpp file (e.g., inheritance_example.cpp). \
-**Compile: **Use a C++ compiler (like g++) to compile the code: \
+**Compile:** Use a C++ compiler (like g++) to compile the code: \
 _g++ inheritance_example.cpp -o inheritance_example_ \
 **Run:** Execute the compiled program:
 _./inheritance_example_ \
