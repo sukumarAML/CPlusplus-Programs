@@ -8,9 +8,9 @@ Input Validation: The deposit() and withdraw() methods include input validation 
 Clear Output: The program displays the results of the deposit and withdrawal operations, along with the new balance.
 How to compile and run:
 
-Save: Save the code as a .cpp file (e.g., bank_account.cpp).
-Compile: Use a C++ compiler (like g++) to compile the code:
-g++ bank_account.cpp -o bank_account
+Save: Save the code as a .cpp file (e.g., bank_account.cpp). \
+Compile: Use a C++ compiler (like g++) to compile the code: \
+_g++ bank_account.cpp -o bank_account_ \
 Run: Execute the compiled program:
 ./bank_account
 This program demonstrates the principles of data encapsulation in C++ by hiding the internal state of the BankAccount object and providing controlled access through methods. This improves the robustness and maintainability of the code.
