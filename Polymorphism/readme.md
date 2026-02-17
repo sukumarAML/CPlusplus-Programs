@@ -12,8 +12,7 @@
 _g++ polymorphism_example.cpp -o polymorphism_example_ \
 **Run:** Execute the compiled program: \
 _./polymorphism_example_ \
-The output will be:
-
+The output will be:\
 Woof!
-Meow!
+Meow! \
 This demonstrates polymorphism – the ability of different objects to respond to the same function call in their own way. The makeSound() function is called on the objects, but the correct implementation (based on the object's type) is executed. This is a fundamental concept in object-oriented programming.
