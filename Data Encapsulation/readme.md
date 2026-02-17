@@ -1,5 +1,4 @@
-# **Key improvements and explanations:
-**
+# Key improvements and explanations:
 **Encapsulation:** The accountNumber and balance are declared as private. This means they can only be accessed or modified from within the BankAccount class. This is the core principle of encapsulation.
 **Constructor:** The constructor initializes the accountNumber and balance when a BankAccount object is created. The initializer list is used for efficiency.
 **deposit() and withdraw() Methods:** These methods provide controlled access to the account's balance. They include input validation to ensure that deposits and withdrawals are valid (positive amounts and sufficient funds).
