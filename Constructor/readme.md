@@ -1,3 +1,4 @@
+# copy constructor
 Key improvements and explanations:
 
 Static Member Variable: static int staticCount; declares a static member variable of type int. Static members are shared by all objects of the class.
