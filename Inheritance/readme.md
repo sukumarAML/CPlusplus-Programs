@@ -38,3 +38,25 @@ g++ single_inheritance.cpp -o single_inheritance
 Run: Execute the compiled program:
 ./single_inheritance
 The output will show the different animal sounds and demonstrate the use of polymorphism. The key takeaway is the use of public inheritance which allows the Dog class to inherit all the members of the Animal class. The virtual function in Animal is vital for the demonstration of polymorphism. The override keyword enhances code safety by ensuring the derived class's function matches the base class's function.
+
+# Multilevel inheritance
+Key improvements and explanations:
+
+Base Class Animal: Represents the base class with a common method, eat().
+Derived Classes Swimmer and Diver: Both Swimmer and Diver inherit publicly from Animal. This means they inherit all the members of Animal, including the eat() method.
+Multiple Inheritance with DiverSwimmer: DiverSwimmer inherits publicly from both Diver and Swimmer. This means it inherits all members from both parent classes.
+performActivity() Method: Demonstrates how DiverSwimmer can access and call methods from both its parent classes.
+Method Resolution: In the main() function, when diverSwimmer.performActivity() is called, the compiler resolves the method calls based on the inheritance hierarchy. performActivity() calls eat() from Swimmer, swim() from Swimmer, and dive() from Diver.
+How to compile and run:
+
+Save: Save the code as a .cpp file (e.g., multiple_inheritance.cpp).
+Compile: Use a C++ compiler (like g++) to compile the code:
+g++ multiple_inheritance.cpp -o multiple_inheritance
+Run: Execute the compiled program:
+./multiple_inheritance
+The output will be:
+
+Animal is eating.
+Swimmer is swimming.
+Diver is diving.
+This demonstrates that the performActivity() method successfully called the eat(), swim(), and dive() methods from the respective parent classes, showcasing the functionality of multiple inheritance. The public inheritance ensures that all methods and members are accessible through the DiverSwimmer class. It's important to note that multiple inheritance can sometimes lead to complexity, and care should be taken when designing class hierarchies.
