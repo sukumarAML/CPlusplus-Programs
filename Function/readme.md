@@ -75,3 +75,26 @@ Important Considerations:
 Overuse: Friend functions should be used judiciously. Excessive use of friend functions can weaken the encapsulation of the class, making it harder to maintain and modify.
 Alternatives: Before using a friend function, consider if alternative approaches (like providing public accessor methods for the private members) would be more appropriate.
 This program provides a clear and concise example of how to define and use a friend function in C++. The comments explain the key aspects and considerations involved.
+
+# Pure virtual function
+Key improvements and explanations:
+
+Abstract Class: The Shape class is an abstract class because it contains at least one pure virtual function (calculateArea()). Abstract classes cannot be instantiated directly. They serve as a blueprint or template for derived classes.
+Pure Virtual Function: The calculateArea() function is declared as virtual double calculateArea() const = 0;.
+virtual: This keyword indicates that the function can be overridden in derived classes. This is essential for polymorphism (allowing objects of different types to be treated uniformly through a base class pointer or reference).
+= 0: This is what makes the function pure virtual. A pure virtual function has no implementation in the base class. Any class that inherits from the base class must provide an implementation for this function.
+override Keyword (C++11 and later): The override keyword is used in the derived classes (Circle and Square) to explicitly indicate that the function is intended to override a virtual function from the base class. This helps the compiler catch errors if you make a mistake in the function signature (e.g., if you accidentally change the parameter list). It’s a best practice to use override to improve code reliability.
+Derived Classes: The Circle and Square classes inherit from the Shape class and provide implementations for the calculateArea() function.
+Polymorphism: The code demonstrates polymorphism – the ability to treat objects of different classes (Circle, Square, Shape) through a common base class pointer or reference. This allows you to call the calculateArea() function on any of these objects, and the correct implementation will be executed based on the object's actual type.
+Abstract Class Cannot be Instantiated: You cannot create an object directly of type Shape (like Shape s;). This is because Shape is an abstract class and does not have a concrete implementation for its pure virtual functions.
+How Pure Virtual Functions Work
+
+Interface: Pure virtual functions define an interface that derived classes must implement.
+
+Polymorphism: They enable polymorphism, allowing you to treat objects of different types uniformly through a base class pointer or reference.
+
+Abstract Classes: Classes that contain pure virtual functions are abstract classes, and you cannot create objects of those classes directly.
+
+Flexibility: They provide a flexible way to design your code, allowing you to add new shapes or shapes with different calculation methods without modifying existing code.
+
+This program clearly demonstrates the use of pure virtual functions in C++. It illustrates the concepts of abstract classes, polymorphism, and the override keyword, which are essential for object-oriented programming.
