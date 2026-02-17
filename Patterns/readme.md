@@ -2,7 +2,7 @@
 
 **Includes:** Includes <iostream> for input/output and <iomanip> for formatting.\
 **User Input:** Prompts the user to enter the number of rows for the pattern. \
-**Clear Examples:** The code provides three different examples of patterns:
+**Clear Examples:** The code provides three different examples of patterns:\
 **Right-angled triangle:** Prints a triangle of asterisks.\
 **Inverted right-angled triangle:** Prints a triangle of asterisks downwards. \
 Hollow square: Prints a square with asterisks around the edges and empty spaces inside. \
