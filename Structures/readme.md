@@ -11,6 +11,6 @@ Accessing Members: Displays the information of the Student objects by accessing 
 Save: Save the code as a .cpp file (e.g., student_structure.cpp).\
 Compile: Use a C++ compiler (like g++) to compile the code:\
 _g++ student_structure.cpp -o student_structure_ \
-Run: Execute the compiled program:
+Run: Execute the compiled program:\
 _./student_structure_ \
 The program will create two Student objects, assign them values, and then display the information of these objects. This demonstrates how to use structures to organize and manage related data in C++. The output will show the names, roll numbers, and marks of the two students.
