@@ -70,3 +70,20 @@ g++ constructor_overloading.cpp -o constructor_overloading
 Run: Execute the compiled program:
 ./constructor_overloading
 The output will show the constructor calls for each Rectangle object that is created. This clearly demonstrates the concept of constructor overloading – the compiler chooses the appropriate constructor based on the type and number of arguments provided during object creation. The copy constructor is called when the copy constructor is invoked.
+
+# Method overloading and operator overloading \
+Key improvements and explanations:
+
+ComplexNumber Class: Defines a ComplexNumber class with realPart and imaginaryPart members.
+Constructors: Includes a default constructor and a parameterized constructor. This allows you to initialize complex numbers in various ways.
+*Operator Overloading (+, -, ): Overloads the addition (+), subtraction (-), and scalar multiplication (*) operators for ComplexNumber objects. Each operator definition uses the operator+, operator-, or operator* syntax. The const keyword is used to ensure that the original objects are not modified. const ComplexNumber& other is used for passing the other complex number object by constant reference to avoid unnecessary copying.
+Overloaded << Operator: Overloads the << (output stream insertion) operator to allow the ComplexNumber object to be printed directly to the console using std::cout. The friend keyword is necessary because the function needs access to the private members of the ComplexNumber class. This operator returns the modified output stream object (os) for chaining.
+main() Function: Creates two ComplexNumber objects, num1 and num2, and demonstrates the use of the overloaded operators to perform arithmetic operations and print the results.
+How to compile and run:
+
+Save: Save the code as a .cpp file (e.g., operator_overloading.cpp).
+Compile: Use a C++ compiler (like g++) to compile the code:
+g++ operator_overloading.cpp -o operator_overloading
+Run: Execute the compiled program:
+./operator_overloading
+The output will demonstrate the use of operator overloading to perform arithmetic operations on ComplexNumber objects. The std::cout statements will print the results of the operations, showing the complex numbers in the form realPart + imaginaryPart i. This example clearly illustrates how operator overloading can make code more readable and intuitive when working with custom data types. The friend keyword is crucial for the << operator.
