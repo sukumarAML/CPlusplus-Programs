@@ -6,7 +6,7 @@
 **Right-angled triangle:** Prints a triangle of asterisks.\
 **Inverted right-angled triangle:** Prints a triangle of asterisks downwards. \
 Hollow square: Prints a square with asterisks around the edges and empty spaces inside. \
-**Nested Loops: ** Uses nested for loops to create the patterns. The outer loop iterates through the rows, and the inner loop iterates through the columns. \
+**Nested Loops:** Uses nested for loops to create the patterns. The outer loop iterates through the rows, and the inner loop iterates through the columns. \
 **Conditional Logic (Hollow Square):** The hollow square example uses if statements to check if a position is on the border of the square. If it is, it prints an asterisk; otherwise, it prints a space. \
 **Spacing:** Adds spaces (" * ") to make the patterns more visually appealing. \
 **Output Labels:** Labels each pattern clearly for easy understanding.
