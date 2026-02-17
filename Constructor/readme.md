@@ -48,3 +48,25 @@ The constructor for obj2 is called when obj2 is created (using the copy construc
 The destructor for obj2 is called when obj2 goes out of scope (at the end of the main() function).
 The destructor for obj1 is called when obj1 goes out of scope (at the end of the main() function).
 This shows the correct execution of the destructor, which is crucial for proper resource management (e.g., releasing memory, closing files, etc.). The order of destruction is the reverse of the order of creation, which is the default behavior in C++.
+
+# Constructor overloading
+
+Key improvements and explanations:
+
+Class Rectangle: Defines a Rectangle class with length and width as private member variables.
+Constructor Overloading: The program demonstrates constructor overloading by providing multiple constructors with different parameter lists.
+Rectangle(): Default constructor, initializes length and width to 0.0.
+Rectangle(double len, double wid): Constructor that takes both length and width as arguments.
+Rectangle(double len): Constructor that takes only the length as an argument and initializes width to 0.0.
+Initialization Lists: All constructors use initialization lists (: length(len), width(wid)) for efficient and correct initialization of member variables. This is generally preferred over assignment within the constructor body.
+Copy Constructor: The copy constructor is implemented to handle deep copying of the Rectangle object's members.
+calculateArea() Method: A simple method to calculate the area of the rectangle.
+main() Function: Demonstrates the usage of the different constructors by creating instances of the Rectangle class with different arguments. The copy constructor is called when rect4 is initialized to copy rect2.
+How to compile and run:
+
+Save: Save the code as a .cpp file (e.g., constructor_overloading.cpp).
+Compile: Use a C++ compiler (like g++) to compile the code:
+g++ constructor_overloading.cpp -o constructor_overloading
+Run: Execute the compiled program:
+./constructor_overloading
+The output will show the constructor calls for each Rectangle object that is created. This clearly demonstrates the concept of constructor overloading – the compiler chooses the appropriate constructor based on the type and number of arguments provided during object creation. The copy constructor is called when the copy constructor is invoked.
