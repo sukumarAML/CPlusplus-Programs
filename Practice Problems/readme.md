@@ -10,6 +10,6 @@
 7.Write a C++ program to check whether two given integers are in the range [1,..,n] inclusive, or they are both in the range [1,..,n] inclusive. \
 8.Write a C++ program to check if two given non-negative integers have the same last digit. \
 9.Write a C++ program to create another string which is n copies of the first 3 characters of a given string. If the length of the given string is less than 3 then return n copies of the string. \
-10. Write a C++ program to find the largest value from the first, last, and middle elements of a given array of integers of odd length (at least 1).\
+10. Write a C++ program to find the largest value from the first, last, and middle elements of a given array of integers of odd length (at least 1). \
 
 
