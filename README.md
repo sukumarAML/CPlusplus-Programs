@@ -42,3 +42,7 @@ The basic starts with foundation concepts
 6. Inheritance 
 7. Message passing
 
+# Practice Problems
+ refer to the folder practice for basic practice questions solutions to the problems are available in the solutions folder.
+
+
