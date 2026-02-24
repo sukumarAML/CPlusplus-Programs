@@ -43,6 +43,6 @@ The basic starts with foundation concepts
 7. Message passing
 
 # Practice Problems
- refer to the folder practice for basic practice questions solutions to the problems are available in the solutions folder.
+1. Refer to the folder named "practice" for basic practice questions, solutions to the practice problems are available in the solutions folder.
 
 
