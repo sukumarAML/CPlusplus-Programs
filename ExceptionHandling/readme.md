@@ -90,27 +90,18 @@ Basic Keywords in Exception Handling:
 
 Exception Handling in C++ falls around these three keywords: 
 
-Throw
-Catch
-Try
+1.Throw
+2.Catch
+3.Try
 What is try throw catch in c++?
 
 In C++, try, throw, and catch are keywords used for exception handling. Exception handling allows developers to handle errors or exceptional situations gracefully and provide a structured way to manage unexpected conditions during the execution of a program.
 
 Here's a brief explanation of each keyword:
-ry: The code that might raise an exception is included within the try block. One or more catch blocks come after it. The program looks for a catch block that matches the try block when an exception is thrown within the try block in order to handle the exception.
+try: The code that might raise an exception is included within the try block. One or more catch blocks come after it. The program looks for a catch block that matches the try block when an exception is thrown within the try block in order to handle the exception.
 throw: To explicitly raise or throw an exception, use the throw keyword. In the try block, it is frequently employed when an exceptional circumstance arises. The control exits the try block when the throw statement is met in order to locate a suitable catch block to handle the exception.
 catch: The catch block follows the try block and is used to catch and handle exceptions. It contains code that executes when a specific type of exception is thrown within the associated try block. Multiple catch blocks can be used for different exception types.
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
 try {
     // Code that might throw an exception
     // If an exception is thrown, control jumps to the corresponding catch block
@@ -282,21 +273,6 @@ Here's a step-by-step guide on how to define and use user-defined exceptions in 
 
 Step 1: Define your custom exception class
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
 #include <exception>
 #include <string>
  
@@ -315,25 +291,6 @@ private:
 Step 2: Throw the user-defined exception
 You can throw the custom exception in your code when a specific error condition is encountered. For example:
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
 #include <iostream>
  
 double divideNumbers(double numerator, double denominator) {
@@ -373,23 +330,8 @@ Here's a step-by-step guide on how to define and use user-defined exceptions in 
 
 Step 1: Define your custom exception class
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-#include &lt;exception>
-#include &lt;string>
+#include <exception>
+#include <string>
  
 class MyException : public std::exception {
 public:
@@ -406,25 +348,6 @@ private:
 Step 2: Throw the user-defined exception
 You can throw the custom exception in your code when encountering a specific error condition. For example:
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
 #include <iostream>
  
 double divideNumbers(double numerator, double denominator) {
@@ -450,9 +373,3 @@ Step 3: Handle the user-defined exception
 When an exception is thrown, you can catch it using a try block and handle it with a corresponding catch block. In this example, we catch MyException and print its error message using the what() method.
 
 User-defined exceptions are helpful for providing meaningful error messages and handling specific error scenarios in your code. You can create multiple custom exception classes to represent different types of errors, which allows for better organization and readability in your exception handling.
-
-This brings us to the end of the blog on Exception Handling in C++. Hope this helps you to up-skill your C++ skills. To learn more about programming and other related concepts, check out the courses on Great Learning Academy. 
-
-Also, if you are preparing for Interviews, check out these Interview Questions for C++ to ace it like a pro
-
-Seize the opportunities that await you through our dynamic range of free courses. Whether you're interested in Cybersecurity, Management, Cloud Computing, IT, or Software, we offer a broad spectrum of industry-specific domains. Gain the essential skills and expertise to thrive in your chosen field and unleash your full potential.
