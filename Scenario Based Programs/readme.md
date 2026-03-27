@@ -91,3 +91,19 @@ The system should:
 - More than 5 days → 10% discount
 - Display final bill
 If days or charges are negative, handle using exception handling
+
+8.Employee Salary Management System
+## Problem Statement
+A company wants to automate employee salary calculation.
+## Scenario:
+Each employee has:
+- Employee ID
+- Name
+- Basic Salary
+The system should:
+- Calculate allowances:
+- HRA = 20% of basic
+- DA = 10% of basic
+- Calculate Gross Salary
+- Display salary details
+If basic salary is negative, handle using exception handling
