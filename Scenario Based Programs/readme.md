@@ -33,3 +33,15 @@ Question:
 
 Develop a C++ program to validate password strength using OOPS.
 
+4.A bank wants to develop a simple system to manage customer accounts.
+Scenario:
+Each customer has:
+Account Number
+Name
+Balance
+The system should:
+Create a new account
+Deposit money
+Withdraw money
+Display account details
+If withdrawal amount exceeds balance → show error using exception handling
