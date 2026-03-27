@@ -61,3 +61,17 @@ Issue a book
 Return a book
 Display all books
 If a user tries to issue an already issued book → show error using exception handling
+
+6.Student Result Processing System
+* Problem Statement
+- A university wants to automate student result processing.
+Scenario:
+* Each student has:
+- Roll Number
+- Name
+- Marks in 3 subjects
+The system should:
+ - Calculate total and average
+ - Assign grade based on average
+ - Display result
+If marks are entered greater than 100 or less than 0, handle it using exception handling
