@@ -58,13 +58,13 @@ A simple example to understand Exceptional handling in C++
 
 #include <iostream>
 
-int main() {
+        # include <iostream>
+        int main() {
     try {
         // Code that may throw an exception
         int numerator = 10;
         int denominator = 0;
         int result = numerator / denominator;
-
         std::cout << "Result: " << result << std::endl;
     }
     catch (const std::exception& e) {
