@@ -107,3 +107,18 @@ The system should:
 - Calculate Gross Salary
 - Display salary details
 If basic salary is negative, handle using exception handling
+
+9.Parking Lot Management System
+## Problem Statement
+A mall wants to automate its parking system.
+## Scenario:
+Each vehicle has:
+Vehicle Number
+Vehicle Type (2-wheeler / 4-wheeler)
+Number of hours parked
+The system should:
+Calculate parking charge:
+2-wheeler → ₹20/hour
+4-wheeler → ₹50/hour
+Display total parking fee
+If hours are negative, handle using exception handling
