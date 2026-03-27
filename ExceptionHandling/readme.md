@@ -56,23 +56,21 @@ When no exception condition happens, the code will execute ordinarily. The handl
 
 A simple example to understand Exceptional handling in C++
 
-#include <iostream>
-
-        # include <iostream>
+    # include <iostream>
         int main() {
-    try {
+        try {
         // Code that may throw an exception
         int numerator = 10;
         int denominator = 0;
         int result = numerator / denominator;
         std::cout << "Result: " << result << std::endl;
-    }
-    catch (const std::exception& e) {
+        }
+        catch (const std::exception& e) {
         std::cout << "Exception occurred: " << e.what() << std::endl;
-    }
+        }
 
     return 0;
-}
+    }
 In this example, the division operation numerator/denominator may throw a std::exception when the denominator is zero. The try block contains the code that might throw an exception, and the catch block catches the exception and handles it appropriately.
 Why Exception Handling? 
 
