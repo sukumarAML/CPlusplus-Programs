@@ -34,32 +34,32 @@ Question:
 Develop a C++ program to validate password strength using OOPS.
 
 4.A bank wants to develop a simple system to manage customer accounts.
-Scenario:
+## Scenario:
 Each customer has:
-Account Number
-Name
-Balance
+ - Account Number
+ - Name
+ - Balance
 The system should:
-Create a new account
-Deposit money
-Withdraw money
-Display account details
+- Create a new account
+- Deposit money
+- Withdraw money
+- Display account details
 If withdrawal amount exceeds balance → show error using exception handling
 
 5.Scenario-Based Question: Library Management System
-Problem Statement
+## Problem Statement
 A college library wants to automate book management.
-Scenario:
+## Scenario:
 Each book has:
-Book ID
-Title
-Author
-Availability (Available / Issued)
+ - Book ID
+ - Title
+ - Author
+ - Availability (Available / Issued)
 The system should:
-Add a new book
-Issue a book
-Return a book
-Display all books
+ - Add a new book
+ - Issue a book
+ - Return a book
+ - Display all books
 If a user tries to issue an already issued book → show error using exception handling
 
 6.Student Result Processing System
