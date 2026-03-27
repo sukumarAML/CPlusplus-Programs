@@ -90,17 +90,17 @@ Exception handling is a crucial concept in programming that allows developers to
 
 Exception Handling in C++ falls around these three keywords: 
 
-1.Throw
-2.Catch
-3.Try
-What is try throw catch in c++?
+* 1.Throw
+* 2.Catch
+* 3.Try
+# What is try throw catch in c++?
 
 In C++, try, throw, and catch are keywords used for exception handling. Exception handling allows developers to handle errors or exceptional situations gracefully and provide a structured way to manage unexpected conditions during the execution of a program.
 
-Here's a brief explanation of each keyword:
-try: The code that might raise an exception is included within the try block. One or more catch blocks come after it. The program looks for a catch block that matches the try block when an exception is thrown within the try block in order to handle the exception.
-throw: To explicitly raise or throw an exception, use the throw keyword. In the try block, it is frequently employed when an exceptional circumstance arises. The control exits the try block when the throw statement is met in order to locate a suitable catch block to handle the exception.
-catch: The catch block follows the try block and is used to catch and handle exceptions. It contains code that executes when a specific type of exception is thrown within the associated try block. Multiple catch blocks can be used for different exception types.
+## Here's a brief explanation of each keyword:
+* try: The code that might raise an exception is included within the try block. One or more catch blocks come after it. The program looks for a catch block that matches the try block when an exception is thrown within the try block in order to handle the exception.
+* throw: To explicitly raise or throw an exception, use the throw keyword. In the try block, it is frequently employed when an exceptional circumstance arises. The control exits the try block when the throw statement is met in order to locate a suitable catch block to handle the exception.
+* catch: The catch block follows the try block and is used to catch and handle exceptions. It contains code that executes when a specific type of exception is thrown within the associated try block. Multiple catch blocks can be used for different exception types.
 
 try {
     // Code that might throw an exception
@@ -169,7 +169,7 @@ int main() {
 }
 Here, we have added an additional catch block to handle a specific type of exception, std::runtime_error, before catching the more general std::exception. The specific exception types should be caught before the more general ones.
 
-Example2: Throwing a Custom Exception
+## Example2: Throwing a Custom Exception
 
 #include <iostream>
 #include <stdexcept>
@@ -199,29 +199,29 @@ int main() {
 }
 In this example, the checkAge the function throws custom exceptions, std::invalid_argument and std::out_of_range, based on the age value provided. The try block calls the checkAge function, and if an exception is thrown, it is caught and handled in the catch block.
 
-How to use try-catch in c++?
+## How to use try-catch in c++?
 
 Try-catch is an important keyword while performing exceptional conditions.
 In the Try block, the "throw" keyword throws an exception when the code detects a problem, which lets us create a custom error.
 Now "catch" keyword comes into a picture i.e. "catch" keyword allows you to define a block of code to be executed if an error occurs in the try block.
 
-How do you catch exceptions in C++?
+## How do you catch exceptions in C++?
 
 To catch exceptions, a part of the code is kept under inspection. This is done by closing that part of the code in a try-block. When an exceptional circumstance arises within that block, an exception is thrown and an exception handler takes control over the program.
 
-How to throw an exception in c++?
+## How to throw an exception in c++?
 
 In C++, you can throw an exception using the throw keyword. Exceptions are a way to handle error conditions or exceptional situations in your code that may disrupt the normal flow of execution. When an exception is thrown, the program will stop executing the current block of code and start searching for an appropriate exception handler (catch block) to handle the exception.
 
 To throw an exception in C++, you typically follow these steps:
 
-Define a custom exception class (optional):
+* Define a custom exception class (optional):
 You can create your own custom exception class by inheriting from the standard std::exception class or any of its derived classes. This step is optional, as you can also use the standard exception classes provided by the C++ Standard Library.
 
-Throw the exception:
+* Throw the exception:
 Use the throw keyword followed by the exception object you want to throw. If you have created a custom exception class, you can instantiate an object of that class and pass it to the throw statement.
 
-Catch the exception (optional):
+* Catch the exception (optional):
 To handle the thrown exception, you need to enclose the code that may throw an exception within a try-catch block. The catch block will catch the thrown exception and allow you to handle it gracefully.
 
 Here's an example of how to throw and catch an exception in C++:
@@ -265,7 +265,7 @@ int main() {
 
 In this example, if the user enters a negative age, the MyException object will be thrown, and it will be caught by the corresponding catch block.
 
-C++ Standard Exceptions
+# C++ Standard Exceptions
 
 In C++, you can create your own user-defined exceptions to handle specific error conditions in your code. User-defined exceptions allow you to define custom exception types that inherit from the standard C++ std::exception class or any of its derived classes. This enables you to throw and catch specific exception types that represent different error situations.
 
