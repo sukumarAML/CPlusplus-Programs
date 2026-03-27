@@ -1,19 +1,19 @@
-#Exception handling in C++
+# Exception handling in C++
 It is a particular condition for developers to handle. In programming, committing mistakes that prompt unusual conditions called errors is normal. All in all, these errors are of three kinds:
 
 1.Syntax Error
 2.Logical Error 
 3.Runtime Error
 
-#What is Exception Handling in C++? 
+# What is Exception Handling in C++? 
 
 Exception handling in C++ is a mechanism that allows a program to deal with runtime errors and exceptional situations in a structured and controlled manner. In C++, exceptions are used to handle errors that occur during the execution of a program, such as division by zero, accessing invalid memory, or file I/O errors.
 
 The basic idea behind exception handling is to separate the normal flow of program execution from error-handling code. Instead of terminating the program abruptly when an error occurs, C++ provides a way to "throw" an exception, representing the error or exceptional condition. The thrown exception is then caught by appropriate "catch" blocks, where the program can handle the error gracefully.
 
-#Here's a basic outline of how exception handling works in C++:
+# Here's a basic outline of how exception handling works in C++:
 
-#Throwing an Exception:
+# Throwing an Exception:
 When a critical error occurs during program execution, you can use the throw statement to raise an exception. It usually takes an object as an argument, which serves as the representation of the error.
 #include <iostream>
 void someFunction(int value) {
@@ -21,7 +21,7 @@ void someFunction(int value) {
         throw std::runtime_error("Error: Division by zero!");
     // ... other code ...
 }
-#Catching an Exception:
+# Catching an Exception:
 To catch an exception, you use a try block. The code that might raise an exception is placed inside the try block. If an exception is thrown within the try block, the program will immediately jump to the corresponding catch block.
 
 int main() {
@@ -35,7 +35,7 @@ int main() {
     // ... other code ...
     return 0;
 }
-Handling the Exception:
+# Handling the Exception:
 The catch block handles the caught exception. It specifies the type of exception it can catch in parentheses, followed by a block of code that handles the exceptional condition.
 Multiple Catch Blocks:
 You can have multiple catch blocks to handle different types of exceptions. The first catch block that matches the thrown exception's type will be executed, and the others will be skipped.
@@ -48,7 +48,7 @@ try {
 } catch (...) {
     // handle any other exception that is not caught by previous catch blocks
 }
-Exception Safety:
+# Exception Safety:
 Exception safety refers to the concept of ensuring that a program's state remains consistent even if an exception is thrown. Writing exception-safe code is essential to prevent resource leaks and maintain data integrity.
 By using exception handling, you can make your C++ programs more robust and maintainable, as they provide a way to handle errors in a controlled manner, rather than having the program terminate abruptly on encountering an issue.
 
@@ -78,15 +78,15 @@ Why Exception Handling?
 
 Exception handling is a crucial concept in programming that allows developers to deal with unexpected or exceptional situations that may occur during the execution of a program. These exceptional situations are often referred to as "exceptions." Here are some reasons why exception handling is important:
 
-Error Management: When a program encounters an error or unexpected condition, without exception handling, it might crash or produce incorrect results. Exception handling provides a structured way to deal with errors and allows developers to handle them gracefully.
-Robustness: Exception handling enhances the robustness of the software. By catching and handling exceptions, developers can prevent the entire program from terminating abruptly and provide users with meaningful error messages, making the software more user-friendly.
-Separation of Concerns: Exception handling clearly separates normal program flow and error running code. This separation makes the code easier to read, understand, and maintain.
-Debugging: Exception handling aids in debugging the code. When an exception is thrown, the program can log details about the error, which helps developers identify and fix the issue's root cause.
-Graceful Recovery: In certain cases, programs can recover from exceptions and continue execution instead of crashing. For example, a web server can catch an exception caused by a client-side error and respond with an appropriate HTTP error code instead of shutting down.
-Program Stability: By handling exceptions appropriately, developers can ensure that the program remains stable and reliable even when facing unexpected conditions or inputs.
-Fail-Safe Operations: Exception handling is especially important when dealing with critical operations like file I/O, network communication, or database transactions. Handling exceptions correctly makes it possible to roll back transactions or perform other necessary cleanup tasks to maintain data integrity.
-Modularity: Exception handling allows for modular design and promotes code reusability. Functions or methods can throw exceptions, and the calling code can catch and handle them accordingly.
-Basic Keywords in Exception Handling: 
+* Error Management: When a program encounters an error or unexpected condition, without exception handling, it might crash or produce incorrect results. Exception handling provides a structured way to deal with errors and allows developers to handle them gracefully.
+* Robustness: Exception handling enhances the robustness of the software. By catching and handling exceptions, developers can prevent the entire program from terminating abruptly and provide users with meaningful error messages, making the software more user-friendly.
+* Separation of Concerns: Exception handling clearly separates normal program flow and error running code. This separation makes the code easier to read, understand, and maintain.
+* Debugging: Exception handling aids in debugging the code. When an exception is thrown, the program can log details about the error, which helps developers identify and fix the issue's root cause.
+* Graceful Recovery: In certain cases, programs can recover from exceptions and continue execution instead of crashing. For example, a web server can catch an exception caused by a client-side error and respond with an appropriate HTTP error code instead of shutting down.
+* Program Stability: By handling exceptions appropriately, developers can ensure that the program remains stable and reliable even when facing unexpected conditions or inputs.
+* Fail-Safe Operations: Exception handling is especially important when dealing with critical operations like file I/O, network communication, or database transactions. Handling exceptions correctly makes it possible to roll back transactions or perform other necessary cleanup tasks to maintain data integrity.
+* Modularity: Exception handling allows for modular design and promotes code reusability. Functions or methods can throw exceptions, and the calling code can catch and handle them accordingly.
+# Basic Keywords in Exception Handling: 
 
 Exception Handling in C++ falls around these three keywords: 
 
