@@ -1,27 +1,27 @@
-Exception handling in C++ is a particular condition for developers to handle. In programming, committing mistakes that prompt unusual conditions called errors is normal. All in all, these errors are of three kinds:
+#Exception handling in C++
+It is a particular condition for developers to handle. In programming, committing mistakes that prompt unusual conditions called errors is normal. All in all, these errors are of three kinds:
 
 1.Syntax Error
 2.Logical Error 
 3.Runtime Error
 
-What is Exception Handling in C++? 
+#What is Exception Handling in C++? 
 
 Exception handling in C++ is a mechanism that allows a program to deal with runtime errors and exceptional situations in a structured and controlled manner. In C++, exceptions are used to handle errors that occur during the execution of a program, such as division by zero, accessing invalid memory, or file I/O errors.
 
 The basic idea behind exception handling is to separate the normal flow of program execution from error-handling code. Instead of terminating the program abruptly when an error occurs, C++ provides a way to "throw" an exception, representing the error or exceptional condition. The thrown exception is then caught by appropriate "catch" blocks, where the program can handle the error gracefully.
 
-Here's a basic outline of how exception handling works in C++:
+#Here's a basic outline of how exception handling works in C++:
 
-Throwing an Exception:
+#Throwing an Exception:
 When a critical error occurs during program execution, you can use the throw statement to raise an exception. It usually takes an object as an argument, which serves as the representation of the error.
 #include <iostream>
- 
 void someFunction(int value) {
     if (value == 0)
         throw std::runtime_error("Error: Division by zero!");
     // ... other code ...
 }
-Catching an Exception:
+#Catching an Exception:
 To catch an exception, you use a try block. The code that might raise an exception is placed inside the try block. If an exception is thrown within the try block, the program will immediately jump to the corresponding catch block.
 
 int main() {
