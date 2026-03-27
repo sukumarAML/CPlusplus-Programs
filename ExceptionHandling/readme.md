@@ -25,7 +25,7 @@ void someFunction(int value) {
 ```
 # Catching an Exception:
 To catch an exception, you use a try block. The code that might raise an exception is placed inside the try block. If an exception is thrown within the try block, the program will immediately jump to the corresponding catch block.
-
+```c++
 int main() {
     try {
         int x = 10;
@@ -37,6 +37,7 @@ int main() {
     // ... other code ...
     return 0;
 }
+```
 # Handling the Exception:
 The catch block handles the caught exception. It specifies the type of exception it can catch in parentheses, followed by a block of code that handles the exceptional condition.
 Multiple Catch Blocks:
