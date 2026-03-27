@@ -63,9 +63,9 @@ The system should:
 If a user tries to issue an already issued book → show error using exception handling
 
 6.Student Result Processing System
-* Problem Statement
+## Problem Statement
 - A university wants to automate student result processing.
-Scenario:
+## Scenario:
 * Each student has:
 - Roll Number
 - Name
@@ -75,3 +75,19 @@ The system should:
  - Assign grade based on average
  - Display result
 If marks are entered greater than 100 or less than 0, handle it using exception handling
+
+7.Hospital Patient Billing System
+## Problem Statement
+A hospital wants to automate patient billing.
+## Scenario:
+Each patient has:
+- Patient ID
+- Name
+- Number of days admitted
+- Charge per day
+The system should:
+- Calculate total bill
+- Apply discount:
+- More than 5 days → 10% discount
+- Display final bill
+If days or charges are negative, handle using exception handling
