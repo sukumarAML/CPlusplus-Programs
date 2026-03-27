@@ -45,3 +45,19 @@ Deposit money
 Withdraw money
 Display account details
 If withdrawal amount exceeds balance → show error using exception handling
+
+5.Scenario-Based Question: Library Management System
+Problem Statement
+A college library wants to automate book management.
+Scenario:
+Each book has:
+Book ID
+Title
+Author
+Availability (Available / Issued)
+The system should:
+Add a new book
+Issue a book
+Return a book
+Display all books
+If a user tries to issue an already issued book → show error using exception handling
