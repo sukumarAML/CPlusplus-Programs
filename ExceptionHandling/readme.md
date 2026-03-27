@@ -15,14 +15,14 @@ The basic idea behind exception handling is to separate the normal flow of progr
 
 # Throwing an Exception:
 When a critical error occurs during program execution, you can use the throw statement to raise an exception. It usually takes an object as an argument, which serves as the representation of the error.
-'''
+```c++
 #include <iostream>
 void someFunction(int value) {
     if (value == 0)
         throw std::runtime_error("Error: Division by zero!");
     // ... other code ...
 }
-'''
+```
 # Catching an Exception:
 To catch an exception, you use a try block. The code that might raise an exception is placed inside the try block. If an exception is thrown within the try block, the program will immediately jump to the corresponding catch block.
 
