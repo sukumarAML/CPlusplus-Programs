@@ -32,6 +32,7 @@ The basic starts with foundation concepts
 12. Structures
 13. Functions
 14. Pointers
+15. Exception Handling
 
 # Object oriented programming concepts
 1. Class
