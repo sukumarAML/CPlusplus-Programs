@@ -44,10 +44,10 @@ The basic starts with foundation concepts
 7. Message passing
 
 # Standard Template Library
-1.Sequence Containers
-2.Container Adaptors
-3.Associative Containers 
-4.Unordered Associative Containers
+1.Sequence Containers\
+2.Container Adaptors\
+3.Associative Containers\ 
+4.Unordered Associative Containers\
 
 # Practice Problems
 1. Refer to the folder named "practice" for basic practice questions, solutions to the practice problems are available in the solutions folder.
