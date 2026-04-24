@@ -13,9 +13,9 @@
 <ul>
   <li>Save: Save the code as a .cpp file (e.g., student_structure.cpp).</li>
   <li>Compile: Use a C++ compiler (like g++) to compile the code:</li>
-  <li> prompt>>g++ student_structure.cpp -o student_structure_ </li>
-  <li> prompt>> Run: Execute the compiled program:</li>
-  <li> prompt>>./student_structure_ </li>
+   _prompt>>g++ student_structure.cpp -o student_structure_
+  <li>Run: Execute the compiled program:</li>
+   _prompt>>./student_structure_ \
 </ul>
 
 The program will create two Student objects, assign them values, and then display the information of these objects. This demonstrates how to use structures to organize and manage related data in C++. The output will show the names, roll numbers, and marks of the two students.
