@@ -44,9 +44,9 @@ The basic starts with foundation concepts
 7. Message passing
 
 # Standard Template Library
-1. Sequence Containers\
-2. Container Adaptors\
-3. Associative Containers\ 
+1. Sequence Containers
+2. Container Adaptors
+3. Associative Containers 
 4. Unordered Associative Containers
 
 # Practice Problems
