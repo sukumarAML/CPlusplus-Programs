@@ -13,7 +13,7 @@
 <ul>
   <li>Save: Save the code as a .cpp file (e.g., student_structure.cpp).</li>
   <li>Compile: Use a C++ compiler (like g++) to compile the code:</li>
-   ***prompt>>g++ student_structure.cpp -o student_structure***
+   *** prompt>>g++ student_structure.cpp -o student_structure ***
   <li>Run: Execute the compiled program:</li>
    ***prompt>>./student_structure***
 </ul>
