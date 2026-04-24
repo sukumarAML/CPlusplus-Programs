@@ -1,6 +1,7 @@
 # Key improvements and explanations:
 
-**Includes:** Includes <iostream> for input/output, <string> for string manipulation, and <iomanip> for formatting. \
+**Includes:** 
+<li> Includes <iostream> for input/output, <string> for string manipulation, and <iomanip> for formatting.</li> 
 Structure Definition: Defines a structure named Student. Structures are user-defined data types that can group related data together. \
 Members: The Student structure has three members: name (a string), rollNumber (an integer), and marks (a floating-point number). \
 Object Creation: Creates two Student objects (student1 and student2). \
